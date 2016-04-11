@@ -1,0 +1,17 @@
+{
+    "version": "1.0",
+    "name": "Emoticons",
+    "description": "Verzeichnis für Emoticons mit ihrer Bedeutung",
+    "launch_path": "/index.html",
+    "icons": {
+        "16": "/icon16.png",
+        "48": "/icon48.png",
+        "60": "/icon60.png",
+        "128": "/icon128.png"
+    },
+    "developer": {
+        "name": "Michael Müller"
+    },
+    "installs_allowed_from": ["*"],
+    "default_locale": "de"
+}

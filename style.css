@@ -1,0 +1,54 @@
+.category-filtered tr {
+	display: none;
+}
+
+.filter-happy .happy,
+.filter-sad .sad,
+.filter-love .love,
+.filter-look .look,
+.filter-other .other,
+.filter-left .left,
+.filter-people .people,
+.filter-thing .thing,
+.filter-animal .animal,
+.filter-asia .asia {
+	display: table-row;
+}
+
+.text-filter-no-match {
+	display: none !important;
+}
+
+header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 5rem;
+	background-color: #fff;
+}
+
+header h1 {
+	height: 2rem;
+	margin: 0.5rem 1rem;
+	overflow: hidden;
+}
+
+header nav {
+	height: 1.75rem;
+	margin: 0 1rem 0.25rem;
+	overflow: hidden;
+}
+
+select {
+	font-size: inherit;
+	width: 30%;
+}
+input {
+	font-size: inherit;
+	width: 65%;
+}
+
+table {
+	margin-top: 5rem;
+}
