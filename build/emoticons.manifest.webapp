@@ -2,7 +2,7 @@
 	"version": "1.1",
 	"name": "Emoticons",
 	"description": "Verzeichnis für Emoticons mit ihrer Bedeutung",
-	"launch_path": "/index.html",
+	"package_path": "http://localhost:8080/emoticons.zip",
 	"icons": {
 		"128": "/icon128.png",
 		"512": "/icon512.png"
