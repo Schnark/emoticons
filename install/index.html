@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, user-scalable=no" />
+<title>Emoticons</title>
+<style>
+html {
+	font-family: sans-serif;
+}
+
+.gallery img {
+	float: left;
+	width: 270px;
+	margin: 5px;
+	border: 1px solid black;
+}
+
+.gallery {
+	float: left;
+	width: 100%;
+	border: 1px solid black;
+}
+
+.clear {
+	clear: both;
+}
+
+button, .button {
+	font: inherit;
+	display: block;
+	width: 100%;
+	line-height: 2;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	border: none;
+	border-radius: 2px;
+	text-align: center;
+	background-image: linear-gradient(-45deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.2) 100%);
+	background-color: blue;
+	color: white;
+	text-decoration: none;
+	cursor: default;
+}
+</style>
+</head><body>
+<h1>Emoticons – App für Firefox OS</h1>
+<nav>
+<a href="#screenshots">Bildschirmfotos</a> – <a href="#description">Beschreibung</a> – <a href="#install">Installieren</a>
+</nav>
+<h2 id="screenshots">Bildschirmfotos</h2>
+<div class="gallery">
+<img src="2015-12-30-13-54-10.png">
+</div>
+<br class="clear">
+<h2 id="description">Beschreibung</h2>
+<p>
+Einfaches Verzeichnis für Emoticons mit ihrer Bedeutung, einschließlich Suchfunktion
+</p>
+<p>
+Wünsche zu Emoticons, die ich neu in die Liste aufnehmen soll, können mir gerne per GitHub-Ticket oder sonstwie mitgeteilt werden, aber bitte immer mit ein paar Quellen, die die tatsächliche Verwendung belegen.
+</p>
+
+<h2 id="install">Installieren</h2>
+<p>
+Die Online-Version erlaubt ein schnelles Testen der App in einem beliebigen Browser. Beachte, dass die App aber für Mobilgeräte mit Firefox OS entwickelt wurde, sodass die Online-Version Fehler besitzen kann.
+</p>
+<p>
+<a href="../index.html" class="button">Online-Version verwenden</a>
+</p>
+<p>
+Auf Geräten mit Firefox OS lässt sich die App installieren und benötigt dann keine Online-Verbindung mehr.
+</p>
+<p>
+<button id="install-button">App installieren</button>
+</p>
+<script>
+document.getElementById('install-button').onclick = function () {
+	navigator.mozApps.installPackage('https://schnark.github.io/emoticons/github.manifest.webapp');
+};
+</script>
+</body></html>
