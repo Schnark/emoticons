@@ -1,0 +1,16 @@
+{
+	"@comment": "Note that the code to transform these data into a webpage is in https://github.com/Schnark/schnark.github.io",
+	"title": {
+		"en": "Emoticons – App for Firefox OS",
+		"de": "Emoticons – App für Firefox OS"
+	},
+	"serviceworker": true,
+	"icon": "icon128.png",
+	"screenshots": [
+		"2015-12-30-13-54-10.png"
+	],
+	"desc": {
+		"en": ["Simple dictionary (in German) for emoticons with their meaning, including search"],
+		"de": ["Einfaches Verzeichnis für Emoticons mit ihrer Bedeutung, einschließlich Suchfunktion", "Wünsche zu Emoticons, die ich neu in die Liste aufnehmen soll, können mir gerne per GitHub-Ticket oder sonstwie mitgeteilt werden, aber bitte immer mit ein paar Quellen, die die tatsächliche Verwendung belegen."]
+	}
+}
