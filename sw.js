@@ -3,7 +3,11 @@
 "use strict";
 
 var VERSION = 'v2.1',
-	FILES = ['app.js', 'index.html', 'style.css'];
+	FILES = [
+		'app.js',
+		'index.html',
+		'style.css'
+	];
 
 worker.addEventListener('install', function (e) {
 	e.waitUntil(
