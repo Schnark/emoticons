@@ -1,8 +1,7 @@
 <!DOCTYPE html>
-<html><head>
+<html lang="de"><head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, user-scalable=no">
-<link rel="stylesheet" href="style.css">
+<meta name="viewport" content="width=device-width">
 <title>Emoticons</title>
 <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
 <link rel="icon" type="image/png" href="icons/favicon-32x32.png" sizes="32x32">
@@ -12,11 +11,13 @@
 <link rel="shortcut icon" href="icons/favicon.ico">
 <meta name="msapplication-config" content="icons/browserconfig.xml">
 <meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="style.css">
 <script>
 if (navigator.serviceWorker && !(navigator.mozApps && navigator.mozApps.installPackage)) {
 	navigator.serviceWorker.register('sw.js');
 }
 </script>
+<script src="app.js" defer></script>
 </head><body>
 <header><h1>Emoticons</h1>
 <nav><select id="category">
@@ -251,5 +252,4 @@ if (navigator.serviceWorker && !(navigator.mozApps && navigator.mozApps.installP
 <tr class="animal"><td><code>~~~~8}</code></td><td>Schlange</td></tr>
 <tr class="sad asia"><td><code>°_°</code></td><td>schockiert</td></tr>
 </tbody></table>
-<script src="app.js"></script>
 </body></html>

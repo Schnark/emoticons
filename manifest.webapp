@@ -1,5 +1,5 @@
 {
-	"version": "2.1",
+	"version": "2.2",
 	"name": "Emoticons",
 	"description": "Verzeichnis für Emoticons mit ihrer Bedeutung",
 	"launch_path": "/index.html",
@@ -11,6 +11,5 @@
 		"name": "Michael Müller",
 		"url": "https://github.com/Schnark"
 	},
-	"installs_allowed_from": ["*"],
 	"default_locale": "de"
 }
